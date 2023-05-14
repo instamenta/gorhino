@@ -1,13 +1,15 @@
-<form action="/fact" id="new-form" method="POST">
-    <label for="question">
-        <span>Question</span>
-        <input type="text" id="question" name="question">
-    </label>
+<div class="container">
+    <form id="new-form" method="POST" action="/fact">
+        <label for="question">
+            <span>Question</span>
+            <input id="question" type="text" name="question">
+        </label>
 
-    <label for="answer">
-        <span>Answer</span>
-        <input type="text" name="answer" id="asnwer">
-    </label>
+        <label for="answer">
+            <span>Answer</span>
+            <input id="answer" type="text" name="answer">
+        </label>
 
-    <input type="submit" value="Submit">
-</form>
+        <input type="submit" value="Submit">
+    </form>
+</div>
